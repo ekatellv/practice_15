@@ -10,5 +10,4 @@ def count(n: int) -> int:
     """
     if 1 <= n <= 9::
         return 1
-    else:
-        return 1 + count(n // 10)
+    return 1 + count(n // 10)
