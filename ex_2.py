@@ -8,7 +8,7 @@ def count(n: int) -> int:
     Returns:
         int: The number of digits in the given number
     """
-    if n < 10:
+    if 1 <= n <= 9::
         return 1
     else:
         return 1 + count(n // 10)
