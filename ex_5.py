@@ -13,10 +13,6 @@ def mod_number(a: int, b: int) -> int:
     int: the remainder of a divided by b
     """
   
-    if b == 0:
-        raise ValueError('Cannot divide by zero')
-    
     if a < b:
         return a
-    
     return mod_number(a - b, b)
