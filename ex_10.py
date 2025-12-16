@@ -1,4 +1,4 @@
-def maxlist(a):
+def maxlist(a: list) -> list:
   
     """
     Find the maximum element in a list using recursion.
