@@ -1,10 +1,10 @@
-def search(a: list, x: int) -> int:
+def search(a: list[int], x: int) -> int:
     
     """
     Search for an integer x in a list a using recursion.
 
     Parameters:
-    a : list
+    a : list[int]
         List of integers to search in
     x : int
         Integer to search for
