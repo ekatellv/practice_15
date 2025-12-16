@@ -1,4 +1,5 @@
 def search(a: list, x: int) -> int:
+    
     """
     Search for an integer x in a list a using recursion.
 
